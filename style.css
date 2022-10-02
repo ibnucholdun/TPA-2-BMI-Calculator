@@ -91,3 +91,86 @@ header h1{
 .hero-section .hero-image img{
     width: 70%;
 }
+
+/* FORM SECTION */
+.form-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-section .form-text h2{
+    text-align: center;
+    color: rgb(41, 38, 38);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.form-section .form-text p{
+    text-align: center;
+    color: rgb(41, 38, 38);
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: #F9EC7D;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.form-section form .form-group{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 16px 20px;
+}
+
+.form-section form .form-group label{
+    font-size: 20px;
+    font-weight: 300;
+    color: #171414;
+    margin-bottom: 10px;
+}
+
+.form-section form .form-group input{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: 300;
+    color: #171414;
+}
+
+.form-section form .form-group button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #171414;
+    background-color: #F5B100;
+    width: 35%;
+}
+
+.form-section form .form-group button:hover{
+    background-color: #ffe600;
+}
+
+/* FOOTER */
+footer{
+    background-color: #C7DEFF;
+    padding: 14px 0;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px
+}
