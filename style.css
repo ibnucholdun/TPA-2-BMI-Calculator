@@ -162,6 +162,49 @@ header h1{
     background-color: #ffe600;
 }
 
+.form-section .hasil{
+    width: 20%;
+    display: none;
+}
+
+.form-section .hasil  h2{
+    text-align: center;
+    color: rgb(41, 38, 38);
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.form-section .hasil .card-hasil{
+    margin-top: 30px;
+}
+
+.form-section .hasil .card-hasil .card-text{
+    background-color: #C7DEFF;
+    padding: 20px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.form-section .hasil .card-hasil .card-text p{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.form-section .hasil .card-hasil .card-description{
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.form-section .hasil .card-hasil .card-description p{
+    font-size: 40px;
+    font-weight: 700;
+}
+
 /* FOOTER */
 footer{
     background-color: #C7DEFF;
