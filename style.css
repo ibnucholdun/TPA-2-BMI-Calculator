@@ -37,12 +37,10 @@ header h1{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: "left right";
     margin-bottom: 100px;
 }
 
 .hero-section .hero-text{
-    grid-area: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,7 +79,6 @@ header h1{
 }
 
 .hero-section .hero-image{
-    grid-area: right;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,7 +152,8 @@ header h1{
     font-weight: 500;
     color: #171414;
     background-color: #F5B100;
-    width: 35%;
+    width: 150px;
+    cursor: pointer;
 }
 
 .form-section form .form-group button:hover{
@@ -216,4 +214,56 @@ footer{
     justify-content: center;
     align-items: center;
     margin-top: 70px
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px){
+    header h1{
+        font-size: 30px;
+    }
+    .hero-section .hero-text h2{
+        font-size: 30px;
+    }
+    .form-section .form-text h2{
+        font-size: 30px;
+    }
+    .form-section form{
+        width: 90%;
+    }
+    .form-section .hasil{
+        width: 90%;
+    }
+    .form-section .hasil h2{
+        font-size: 30px;
+    }
+    .form-section .hasil .card-hasil{
+        width: 200px;
+        margin: 20px auto;
+    }
+    .form-section .hasil .card-hasil .card-text p{
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width: 750px){
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-section .hero-text{
+        order: 2;
+    }
+
+    .hero-section .hero-image{
+        order: 1;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1024px){
+    .form-section .hasil .card-hasil .card-text p{
+        font-size: 40px;
+    }
 }
